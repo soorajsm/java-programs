@@ -1,3 +1,2 @@
- //   a=Math.abs(a);
-	        //   b=Math.abs(b);
-	        //   c=Math.abs(c);
+  else
+                    System.out.println("0");
