@@ -23,6 +23,7 @@ public class hashStringcount {
                 unique.add(str);
             }
          } 
+         
          unique.removeAll(repeated);
          String result[]=new String[unique.size()];
          unique.toArray(result);
