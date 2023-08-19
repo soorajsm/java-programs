@@ -3,7 +3,7 @@
 
         public static void main(String[] args) {
             int tar=6;
-            int a[]=new int[]{1,3,4,5,6};
+            int a[]=new int[]{2,3,4,5,6};
             Twosum obj=new Twosum();
             int b[] =obj.twoSum(a,tar);
             for(int i:b){
