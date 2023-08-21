@@ -5,6 +5,7 @@ import java.util.HashSet;
 
 public class Repeatedstrset {
     public static void main(String[] args) {
+
         String str="aabbccqwertynmnmnm";
         HashSet<Character> first=new HashSet<>();
         HashSet<Character> sec=new HashSet<>();
