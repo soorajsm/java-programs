@@ -12,3 +12,4 @@ class Noofrect
 		// your code goes here
 	}
 }
+
