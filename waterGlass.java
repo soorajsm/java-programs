@@ -6,23 +6,17 @@ public class waterGlass {
         int t=sc.nextInt();
         while(t-->0)
         {
-            int n=sc.nextInt();
-            int m=sc.nextInt();
-            int bound=n;
-            int i=1;
-            while(n>0)
+            int waterglass=sc.nextInt();
+            int bound=waterglass;
+            int rate=sc.nextInt();
+            int day=1;
+            while(waterglass>0)
             {
-              
-                if(m+n>bound)
-                    n=bound;
-                else
-                n=n+m;
-                  n=n-i;
-                i++;
-
+               waterglass=Math.min(waterglass+rate, bound);
+               waterglass=Math.max(waterglass-day, 0);
+               day++;
             }
-                    System.out.println(i);
-
+            System.out.println(day-1);
         }
     }
 }
