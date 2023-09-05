@@ -14,7 +14,7 @@ public class BitCount
             for(int j=0;j<num.length();j++)
             {
                 char ch=num.charAt(j);      //this program can be also done by using Integer.bitCount() function
-                                            // ex : Integer.bitCount(4) will be equal to 1
+                                           // ex : Integer.bitCount(4) will be equal to 1
                if(ch=='1')
                {
                 count++;
