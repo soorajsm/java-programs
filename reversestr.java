@@ -9,6 +9,7 @@ public class reversestr
             rev=name.charAt(i)+rev;
         }
         System.out.println(rev);
+        
 
     }
 }
